@@ -168,7 +168,8 @@ SELECT skill, age
 FROM Warren
 WHERE name = 'boot'
 ```
-Output:
-|Skill|Age|
-|----|----|
-| Grinding| 13|
+Output: 
+
+|  Skill  | Age | 
+|----------|----| 
+| Grinding | 13 |
