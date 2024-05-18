@@ -1,6 +1,7 @@
 # Warren across the lanuages
 
 ## Python
+warren.py
 ```python
 import random
 class Warren:
@@ -161,6 +162,7 @@ public class Main {
 
 ```
 ## SQL
+warren.sql
 ```sql
 SELECT skill, age
 FROM Warren
