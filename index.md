@@ -164,7 +164,7 @@ public class Main {
 ```sql
 SELECT skill, age
 FROM Warren
-WHERE name = "boot"
+WHERE name = 'boot'
 ```
 Output:
 |Skill|Age|
