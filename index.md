@@ -1,7 +1,43 @@
-# Warren across the lanuages.
+# Warren across the lanuages
 
 ## Python
 ```python
+import random
+class Warren:
+    def __init__(self, skill, age, *games):
+        self.skill = skill
+        self.age = age
+        self.games = games
+        self.events = ["got hit by a truck", "deleted his Pokemon save file", "jumped off a cliff"]
+
+    def skilling(self):
+        print("Warren performed", self.skill)
+    
+    def aging(self):
+        age += 1
+        print("Warren is now", self.age)
+
+    def event(self):
+        print("Warren", random.choice(self.events))
+    def play(self):
+        print("Warren played", random.choice(self.games), "for 2000000 hours")
+
+boot = Warren("grinding", 13, ["Taming", "Pokemon", "Getting over it", "Fortnite"])
+run = True
+while run:
+    action = input("What would you like Warren to do? ")
+    if action == "quit":
+        break
+    elif action == "skill":
+        boot.skilling()
+    elif action == "age":
+        boot.aging()
+    elif action == "event":
+        boot.event()
+    elif action == "play":
+        boot.play()
+    else:
+        print("Invalid Option")
 ```
 
 ## C++
