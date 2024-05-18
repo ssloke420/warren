@@ -83,8 +83,8 @@ int main() {
             } else if (action == "quit") {
                 run = false;
             } else if (action == "play"){
-				boot.play();
-			} else {
+		boot.play();
+ 	    } else {
                 cout << "Invalid option";
             }
         }
@@ -150,10 +150,10 @@ public class Main {
             } else if (action.equals("quit")) {
                 run = false;
             } else if (action.equals("play")){
-				boot.play();
-			} else if (action.equals("event")){
-				boot.event();
-			} else {
+		boot.play();
+	    } else if (action.equals("event")){
+		boot.event();
+	    } else {
                 System.out.println("Invalid option");
             }
         }
